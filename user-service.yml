@@ -1,6 +1,5 @@
 server:
   port: ${PORT}
-
 spring:
   datasource:
     username: ${DB_USERNAME}
