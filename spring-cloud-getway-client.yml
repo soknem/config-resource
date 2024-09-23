@@ -17,9 +17,6 @@ spring:
               - client_secret_basic
             scope:
               - openid
-              - profile
-              - email
-              - address
 
         provider:
           my-provider:
