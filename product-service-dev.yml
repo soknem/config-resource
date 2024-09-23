@@ -8,8 +8,8 @@ DB_NAME: testing_product_and_upload_file
 AUTHENTICATION-DATABASE: admin
 
 MINIO_URL: http://68.183.225.48:9000
-MINIO_ACCESS_KEY: ${minio-access-key}
-MINIO_SECRETE_KEY: ${minio-secret-key}
+MINIO_ACCESS_KEY: NzByPdwkCl7LGOVgK9R4
+MINIO_SECRETE_KEY: TgjiHrAOFXnZt4RiUsclqULFYykg99cWWocoqeEk
 MINIO_BUCKET: origin-bucket-1
 
 MEDIA_BASE_URI: https://file-origin.devkh.asia
