@@ -4,7 +4,7 @@ DB_USERNAME: ${db-dev-username}
 DB_PASSWORD: ${db-dev-password}
 DB_HOST: 68.183.225.48
 DB_PORT: 28000
-DB_NAME: testing_product_and_upload_file
+DB_NAME: testing_product
 AUTHENTICATION-DATABASE: admin
 
 MINIO_URL: http://68.183.225.48:9000
