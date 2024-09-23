@@ -1,8 +1,8 @@
 
-PORT: 8085
+PORT: 8082
 DB_USERNAME: ${db-dev-username}
 DB_PASSWORD: ${db-dev-password}
-DB_HOST: 68.183.225.48
+DB_HOST: 68.183.187.158
 DB_PORT: 28000
 DB_NAME: testing-refresh-config
 AUTHENTICATION-DATABASE: admin
