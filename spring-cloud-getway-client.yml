@@ -1,2 +1,32 @@
 server:
   port: 8084
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          gateway:
+            provider: my-provider
+            client-id: ${client-id}
+            client-secret: ${secret}
+            authorization-grant-type: authorization_code
+            redirect-uri: http://127.0.0.1:8084/login/oauth2/code/oidc-client
+            client-authentication-method:
+              - client_secret_post
+              - client_secret_basic
+            scope:
+              - openid
+              - profile
+              - email
+              - address
+
+        provider:
+          my-provider:
+            authorization-uri: http://127.0.0.1:8080/oauth2/authorize
+
+            token-uri: http://127.0.0.1:8080/oauth2/token
+
+            user-info-uri: http://127.0.0.1:8080/oauth2/userinfo
+
+            issuer-uri: http://127.0.0.1:8080
