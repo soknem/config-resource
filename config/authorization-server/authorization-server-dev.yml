@@ -21,6 +21,7 @@ logging:
       springframework:
         security: debug
         web: debug
+
 eureka:
   client:
     serviceUrl:
