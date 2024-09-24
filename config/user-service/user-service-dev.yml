@@ -1,0 +1,6 @@
+PORT: 8083
+DB_USERNAME: ${database-username}
+DB_PASSWORD: ${postgres_password}
+DB_HOST: 68.183.225.48
+DB_PORT: 5432
+DB_NAME: product-db
