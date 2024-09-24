@@ -11,7 +11,7 @@ spring:
             client-id: ${client-id}
             client-secret: ${secret}
             authorization-grant-type: authorization_code
-            redirect-uri: http://127.0.0.1:8084/login/oauth2/code/oidc-client
+            redirect-uri: http://127.0.0.1:8085/login/oauth2/code/oidc-client
             client-authentication-method:
               - client_secret_post
               - client_secret_basic
