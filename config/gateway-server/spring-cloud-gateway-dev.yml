@@ -11,7 +11,7 @@ spring:
             client-id: ${client-id}
             client-secret: ${secret}
             authorization-grant-type: authorization_code
-            redirect-uri: http://127.0.0.1:8084/login/oauth2/code/oidc-client
+            redirect-uri: http://localhost:8084/login/oauth2/code/oidc-client
             client-authentication-method:
               - client_secret_post
               - client_secret_basic
@@ -20,13 +20,13 @@ spring:
 
         provider:
           my-provider:
-            authorization-uri: http://127.0.0.1:8080/oauth2/authorize
+            authorization-uri: http://localhost:8080/oauth2/authorize
 
-#            token-uri: http://127.0.0.1:8080/oauth2/token
+#            token-uri: http://localhost:8080/oauth2/token
 
-#            user-info-uri: http://127.0.0.1:8080/oauth2/userinfo
+#            user-info-uri: http://localhost:8080/oauth2/userinfo
 
-            issuer-uri: http://127.0.0.1:8080
+            issuer-uri: http://localhost:8080
 
 #logging:
 #  level:
