@@ -28,8 +28,8 @@ spring:
 
             issuer-uri: http://localhost:8080
 
-#logging:
-#  level:
-#    org.springframework.cloud.gateway: DEBUG
-#    org.springframework.security.oauth2.client: DEBUG
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    org.springframework.security.oauth2.client: DEBUG
 
