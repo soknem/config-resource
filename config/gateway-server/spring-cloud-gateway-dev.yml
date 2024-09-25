@@ -22,14 +22,14 @@ spring:
           my-provider:
             authorization-uri: http://127.0.0.1:8080/oauth2/authorize
 
-            token-uri: http://127.0.0.1:8080/oauth2/token
+#            token-uri: http://127.0.0.1:8080/oauth2/token
 
-            user-info-uri: http://127.0.0.1:8080/oauth2/userinfo
+#            user-info-uri: http://127.0.0.1:8080/oauth2/userinfo
 
             issuer-uri: http://127.0.0.1:8080
 
-logging:
-  level:
-    org.springframework.cloud.gateway: DEBUG
-    org.springframework.security.oauth2.client: DEBUG
+#logging:
+#  level:
+#    org.springframework.cloud.gateway: DEBUG
+#    org.springframework.security.oauth2.client: DEBUG
 
