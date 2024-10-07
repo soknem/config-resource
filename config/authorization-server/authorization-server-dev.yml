@@ -6,7 +6,7 @@ spring:
     username: ${db-username}
     password: ${db-password}
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://68.183.187.158:5432/oauth-db
+    url: jdbc:postgresql://68.183.225.48:5432/oauth-db
 
   jpa:
     hibernate:
